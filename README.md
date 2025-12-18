@@ -1,69 +1,27 @@
-#  E-Commerce Sales Analytics Project
+### Business Problem  
+Analyzed 50K+ e-commerce transactions to understand sales trends, customer behavior, and product profitability. The goal was to convert raw data into actionable insights to boost revenue and improve retention.  
 
-##  Project Overview
-This project delivers an end-to-end e-commerce sales analytics solution using **SQL, Python, and Power BI** to analyze revenue, profitability, customer behavior, and product performance.
+### Key Questions  
+* Which products and categories generate the highest revenue and profit?  
+* Who are the high-value customers contributing most to sales?  
+* What are the monthly and seasonal sales patterns?  
+* Which high-selling products have low profit margins?  
 
-The goal was to transform raw transactional data into actionable business insights through structured analysis and interactive dashboards.
+### Tools & Technologies  
+* SQL (MySQL) – data extraction and aggregation  
+* Python (Pandas, NumPy) – data cleaning and RFM segmentation  
+* Power BI – dashboards and visualization  
 
----
+### Dataset  
+* 50,000+ transaction-level records including invoice date, product, category, quantity, price, and customer ID  
 
-##  Project Architecture
-- **SQL** → Data exploration, aggregation, KPIs
-- **Python** → Data cleaning & RFM customer segmentation
-- **Power BI** → Interactive dashboards & business insights
+### Analysis & Insights  
+* RFM segmentation identified “Champions” contributing nearly **45% of revenue**  
+* Top 20% of customers generated ~**65% of revenue**  
+* Peak sales occurred during holiday seasons  
+* Some high-selling products had low profit margins  
 
----
-
-##  Dataset
-- Online retail transactional dataset
-- Cleaned and processed for analytics
-- Includes invoices, customers, products, pricing, quantity, and country
-
----
-
-##  Tools & Technologies
-- SQL (MySQL)
-- Python (Pandas, NumPy)
-- Power BI
-- DAX
-- Jupyter Notebook
-
----
-
-##  Key Analysis Performed
-
-### 🔹 SQL
-- Monthly revenue trends
-- Revenue growth %
-- Top customers by revenue
-- Order frequency analysis
-
-### 🔹 Python
-- Data cleaning and preprocessing
-- RFM (Recency, Frequency, Monetary) analysis
-- Customer segmentation (Champions, Loyal, At Risk, Lost)
-
-### 🔹 Power BI Dashboard
-**Pages included:**
-1. Overview – KPIs, trends, navigation
-2. Sales Insight – Revenue, profit, country & time analysis
-3. Customer Insight – RFM segments, top customers, purchase trends
-4. Product Insight – Top products, contribution %, low-margin detection
-
----
-
-##  Key Features
-- Drill-through navigation
-- Conditional formatting with icons
-- Low-margin product flagging
-- Profit % and contribution analysis
-- Clean executive-level UI
-
----
-
-##  Outcome
-Enabled data-driven decision-making by identifying:
-- High-value customers
-- Profitable vs low-margin products
-- Sales growth patterns
-- Revenue concentration risks
+### Recommendations  
+* Focus loyalty programs on high-value customers  
+* Optimize pricing for low-margin products  
+* Plan targeted promotions based on seasonality  
